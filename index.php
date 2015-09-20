@@ -70,8 +70,12 @@
 
 			</section>
 
+			
+			<footer>
+				
+				<a class="github" href="https://github.com/wagawagawali/exercice_php">Github</a>
 
-
+			</footer>
 
 			
 	
