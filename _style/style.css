@@ -1,0 +1,137 @@
+body{
+	font-family: 'Lato';
+	color: #333;
+	background: #f4f4f4;
+	border-top: 10px solid white;
+	padding: 0;
+	margin: 0;
+}
+
+button{
+	  /*Reset's every elements apperance*/
+        background: none repeat scroll 0 0 transparent;
+        border: medium none;
+        border-spacing: 0;
+        color: #26589F;
+        font-family: sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 1.42rem;
+        list-style: none outside none;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        text-decoration: none;
+        text-indent: 0;
+}
+ul{
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+.section_form{
+	width: 80%;
+	margin: 100px auto;
+}
+
+h1{
+	font-size: 3em;
+	text-align: center;
+	margin-bottom: 75px;
+}
+h1::after{
+	text-indent: -99999px;
+    content: "1";
+    display: block;
+    width: 45px;
+    border-top: 3px solid #f64744;
+    margin: .3em auto 0;
+}
+
+h2{
+	text-align: center;
+	margin: 100px 0 75px 0;
+}
+
+img{
+	width: 60%;
+	max-width: 800px;
+	margin:0 auto; 
+	display: block;
+	border: 3px solid #333;
+}
+
+label{
+	font-size: 1.2em;
+	display: block;
+}
+	label:hover{
+		cursor: pointer;
+	}
+
+
+.choice{
+	max-width: 500px;
+	margin: 0 auto 25px auto;
+	list-style: none;
+}
+
+.checkbox-row{
+	float: right;
+	margin-top: -18px;
+}
+	.checkbox-row:hover{
+		cursor: pointer;
+	}
+
+
+.section_button{
+	display: block;
+	text-align: center;
+	margin: 75px auto 0; 
+	font-size: 18px;
+	color: #333;
+	font-family: 'Lato';
+	font-weight: 700;
+	clear: both;
+	width: 150px;
+	height: 70px;
+	border: 3px solid #333;
+	cursor: pointer;
+	transition: all .3s ease-out;
+	outline: none;
+}
+	.section_button:hover{
+		color: white;
+		font-weight: 400;
+		background: #f64744;
+		transition: all .3s ease-out;
+
+	}
+
+.section_back{
+	display: block;
+	font-size: 18px;
+	color: #333;
+	font-family: 'Lato';
+	font-weight: 700;
+	clear: both;
+	padding: 25px 0;
+	width: 260px;
+	border: 3px solid #333;
+	text-align: center;
+	margin: 75px auto 0; 
+	transition: all .3s ease-out;
+}
+	.section_back:hover{
+		color: white;
+		background: #f64744;
+		transition: all .3s ease-out;
+
+	}
+
+
